@@ -113,8 +113,11 @@ while True:
             high_score = score
             pen.clear()
             pen.write("Score = {} High Score = {}".format(score,high_score),align="center",font=("Courier",20,"normal"))
+
+        pen.clear()
         pen.write("Score = {} High Score = {}".format(score, high_score), align="center",
                   font=("Courier", 20, "normal"))
+
 
     for index in range(len(segments)-1,0,-1):
         x = segments[index-1].xcor()
